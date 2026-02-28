@@ -1,0 +1,36 @@
+# ============================================================
+# Surya Sutra — Complete Requirements
+# Team: Algoholics
+# Install: pip install -r requirements.txt
+# ============================================================
+
+# --- Web Framework ---
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+python-multipart==0.0.7
+httpx==0.26.0
+
+# --- Data Science Core ---
+numpy==1.26.3
+pandas==2.2.0
+scipy==1.12.0
+scikit-learn==1.4.0
+
+# --- Geospatial ---
+geopandas==0.14.3
+shapely==2.0.2
+pyproj==3.6.1
+rasterio==1.3.9
+Fiona==1.9.5
+
+# --- Time-Series Forecasting ---
+statsmodels==0.14.1
+
+# --- Database ---
+psycopg2-binary==2.9.9
+SQLAlchemy==2.0.25
+GeoAlchemy2==0.14.3
+
+# --- Utilities ---
+python-dotenv==1.0.0
+pydantic==2.5.3
